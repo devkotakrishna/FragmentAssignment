@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="400dp"
+    android:background="
+ #ff4d4d"
+    tools:context=".Fragments.AreaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of Circle"
+        android:textSize="40dp"
+        android:background="#b38f00"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/etradius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:layout_marginRight="50dp"
+        android:hint="Raduis of circle" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncalculate"
+        android:text="Area of circle"
+        android:background="#d1b3ff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <TextView
+        android:id="@+id/tvdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="	 #4fc5ff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnArea"
+
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background=" #c2f29e"
+            android:text="Area of Circle"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSI"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="SI"
+            android:background=" #c2f29e"
+            android:textSize="15sp"
+
+
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnPalindrom"
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:background=" #c2f29e"
+            android:text="Palindrom"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnArmstrong"
+            android:layout_width="135dp"
+            android:background=" #c2f29e"
+            android:layout_height="60dp"
+            android:text="Armstrong"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnAutomorphic"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="Automorphic"
+            android:background=" #c2f29e"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btnSwapNo"
+            android:layout_width="135dp"
+            android:background=" #d1b3ff"
+            android:layout_height="60dp"
+            android:text="Swap No"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="	 #b38f00"
+        android:id="@+id/fragmentContainer"
+
+        android:orientation="vertical"
+        />
+
+
+</LinearLayout>
+
+
+

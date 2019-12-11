@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="
+ #ff4d4d"
+    android:orientation="vertical"
+    tools:context=".Fragments.SIFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="	 #b38f00"
+        android:text=" SIMPLE INTEREST"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter Principle"
+        android:id="@+id/etPrinciple"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter Rate"
+        android:id="@+id/etRate"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:background=" #999966"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter Time"
+        android:id="@+id/etTime"
+        android:textSize="25dp"
+        android:background=" #999966"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btnSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:background="#d1b3ff"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/tvSI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
